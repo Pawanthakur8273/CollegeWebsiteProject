@@ -5,7 +5,7 @@ import PlaylistCard from './PlaylistCard';
 const YouTubePlaylists = () => {
   const [playlists, setPlaylists] = useState([]);
   const [loading, setLoading] = useState(false);
-  const API_KEY = 'AIzaSyCB2qseqFHvc0FVzhlCs80DNpG-7k8yqLc'; // Your API key here
+  const API_KEY = 'Here is my API'; // Your API key here
 
   // Fetch Playlists for a subject (e.g., AKTU)
   const fetchPlaylists = async () => {
