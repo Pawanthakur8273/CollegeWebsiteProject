@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  font-family: 'montserrat', sans-serif;
+}
+
+body {
+  @apply bg-[#323437]; /* Tailwind class for light gray background */
+}
